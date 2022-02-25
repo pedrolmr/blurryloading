@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+}
+
+.bg {
+  background: url("https://www.cheatsheet.com/wp-content/uploads/2022/02/Tanjiro-Entertainment-District-Arc-1200x675.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(70px);
+}
+
+.loading-text {
+  font-size: 2rem;
+  color: #fff;
+}
